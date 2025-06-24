@@ -9,6 +9,7 @@
     font-size: 35px;
     font-weight: 700;
     color: #181818;
+    text-align: center;
 }
 .d-flex{
     display: flex;
@@ -141,3 +142,35 @@ section.banner-section {
     font-weight: 700;
     margin-top: 6px;
 }
+/* Skills Section */
+.skills-section{
+    margin-bottom: 80px;
+}
+.skills-section > p {
+	margin: 40px auto 40px auto;
+	text-align: center;
+	width: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 28px;
+}
+.skills-container{
+    gap: 25px;
+}
+.skills-box{
+    padding: 40px 30px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+}
+.skills-box h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.skills-box p{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+/* Resume SEctions */
