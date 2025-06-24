@@ -174,3 +174,43 @@ section.banner-section {
     font-weight: 400;
 }
 /* Resume SEctions */
+.resume-container-boxs {
+	justify-content: space-between;
+	margin-top: 80px;
+	gap: 35px;
+}
+.resume-container-box {
+	margin-bottom: 30px;
+}
+.resume-box {
+	padding: 20px 20px 20px 0;
+	border-bottom: 1px solid #d1d1d1;
+}
+.resume-box h2{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.resume-box h3{
+    color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.resume-box h5{
+    color: rgb(117, 117, 117);
+    font-size: 20px;
+    font-weight: 600;
+}
+.resume-box p{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 20px 0;
+    padding-right: 20px;
+    line-height: 28px;
+}
+.bor-bottom{
+    border-bottom: none;
+}
