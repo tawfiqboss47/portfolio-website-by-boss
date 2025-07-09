@@ -285,3 +285,25 @@ section.banner-section {
 	display: inline-block;
 	font-size: 18px;
 }
+
+/* defolt class  */
+.hide{
+    display: none;
+}
+/* Mobile Screen */
+@media screen and (max-width: 576px) {
+    .container {
+	    max-width: 90%;
+    }
+    .skills-container {
+	    flex-direction: column;
+    }
+    .skills-section > p {
+	    margin: 22px auto 40px auto;
+	    width: 90%;
+	    font-size: 17px;
+    }
+    .heading-title {
+	    font-size: 29px;
+    }
+}
