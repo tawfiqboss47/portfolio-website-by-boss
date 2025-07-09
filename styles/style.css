@@ -295,7 +295,7 @@ section.banner-section {
     .container {
 	    max-width: 90%;
     }
-    .skills-container {
+    .skills-container, .resume-container-boxs {
 	    flex-direction: column;
     }
     .skills-section > p {
@@ -305,10 +305,5 @@ section.banner-section {
     }
     .heading-title {
 	    font-size: 29px;
-    }
-}
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    .container{
-        max-width: 100%;
     }
 }
