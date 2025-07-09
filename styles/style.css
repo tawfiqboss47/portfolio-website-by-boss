@@ -303,7 +303,16 @@ section.banner-section {
 	    width: 90%;
 	    font-size: 17px;
     }
+    .skills-box p {
+        color: #757575;
+        font-size: 18px;
+        font-weight: 400;
+    }
     .heading-title {
 	    font-size: 29px;
     }
+    .resume-box p {
+    font-size: 20px;
+    padding-right: 0px;
+}
 }
